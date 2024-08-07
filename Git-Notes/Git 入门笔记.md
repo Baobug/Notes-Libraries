@@ -16,7 +16,9 @@
 
 ## 入门操作流程
 
-创建项目SSH Key，打开Git Bash
+### 创建项目SSH Key
+
+打开Git Bash
 
 配置用户名：
 
@@ -48,35 +50,35 @@ ssh-keygen -t rsa -C "github注册邮箱"
 >
 >   id_rsa.pub是公钥
 
-打开GitHub按照图示进行操作
+### 打开GitHub按照图示进行操作
 
 >   打开设置
 
-![image-20240807181635250](assets/image-20240807181635250.png)
+![github密钥添加 (1)](assets/github%E5%AF%86%E9%92%A5%E6%B7%BB%E5%8A%A0%20(1).png)
 
 >   点击SSH和GPG密钥
 
-![image-20240807181718153](assets/image-20240807181718153.png)
+![github密钥添加 (2)](assets/github%E5%AF%86%E9%92%A5%E6%B7%BB%E5%8A%A0%20(2).png)
 
 >   新的ssh密钥
 
-![image-20240807181758641](assets/image-20240807181758641.png)
+![github密钥添加 (3)](assets/github%E5%AF%86%E9%92%A5%E6%B7%BB%E5%8A%A0%20(3).png)
 
 >   输入密钥
 
-![image-20240807181914095](assets/image-20240807181914095.png)
+![github密钥添加 (4)](assets/github%E5%AF%86%E9%92%A5%E6%B7%BB%E5%8A%A0%20(4).png)
 
 >   完成后点击 **Add SSH key** 添加密钥
 
 
 
-将Github仓库复制到本地
+### 将Github仓库复制到本地
 
 在本地新建一个文件夹，在文件夹内打开Git Bash
 
 使用  **git clone "仓库HTTPS链接"** 命令将仓库复制到本地
 
-在本地仓库内更改或添加文件后推送至远程仓库
+### 在本地仓库内更改或添加文件后推送至远程仓库
 
 ```c
 git init //初始化仓库
@@ -88,4 +90,8 @@ git commit -m "备注信息"  //将暂存区的内容提交到仓库区
 git push origin '分支'  //将仓库区内容推送到远程仓库
 ```
 
+![推送命令](assets/%E6%8E%A8%E9%80%81%E5%91%BD%E4%BB%A4.png)
+
 在第一次提交时会显示验证，正常登录github账号即可
+
+![验证](assets/%E9%AA%8C%E8%AF%81.png)
