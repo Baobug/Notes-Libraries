@@ -245,17 +245,21 @@ if(条件表达式1){
 #### switch 选择语句
 
 ```c
-switch(){
-    case 1:
+switch(变量){
+    case 值1:
+    //代码体
         break;
-    case 2:
+    case 值2:
+    //代码体
         break;
-    case 3:
+    case 值3:
+    //代码体
         break;
     default:
-        break;
-    
+    //代码体
+        break; 
 }
+//case的值必须是整数或者字符
 ```
 
 #### while 循环语句
@@ -330,6 +334,21 @@ for(循环变量初值;循环条件;循环变量增值;){
 int X=10,Y=20,max;
 max = (x>y) ? x:y;
 //判断x是否大于y,是则将x赋值给max
+```
+
+### 取整
+
+```c
+#include<math.c>
+int main(){
+  float x = 8.5;
+  int a,b,c,d;
+  
+  a=x;//向下取整
+  b=floor(x);//向下取整
+  c=ceil(x);//向上
+  d=round(x);//四舍五入取整
+}
 ```
 
 
