@@ -82,12 +82,15 @@ ssh-keygen -t rsa -C "github注册邮箱"
 
 ```c
 git init //初始化仓库
-git remite add origin "仓库链接"  //添加远程仓库
-git pull --rebase origin //获取远程仓库和本地同步
+git remite add origins "仓库链接"  //添加远程仓库
+git pull --rebase origins //获取远程仓库和本地同步
 
 git add "修改或新增文件"  //将工作区文件添加至暂存区
 git commit -m "备注信息"  //将暂存区的内容提交到仓库区
-git push origin '分支'  //将仓库区内容推送到远程仓库
+git push origins '分支'  //将仓库区内容推送到远程仓库
+
+git push --set-upstream origins '分支'
+git push -u origin main'分支'
 ```
 
 ![推送命令](assets/%E6%8E%A8%E9%80%81%E5%91%BD%E4%BB%A4.png)
