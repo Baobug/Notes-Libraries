@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+body{
+	font-family:"隶书"; font-size:16px; color:#303131;
+}
+	
+.header{
+	width: 61.25rem;
+	height: 7.125rem;
+	background-color: #525252;
+	margin: 0 auto;
+	text-align: center;
+}
+.banner{
+	width: 61.25rem;
+	margin: 0 auto;
+	}
+.banner h2{
+	font-size: 18px;
+	line-height: 40px;
+}
+
+
+.content{
+	width: 61.25rem;
+	margin: 0 auto;
+	color: #7c251c;
+	font-size: 1.875rem;
+	text-align: center;
+}
+.content h2{
+	line-height: 1.875rem;
+}
+.content h3{
+	line-height: 1.875rem;
+	font-size: 1.25rem;
+}
+.content p{
+	font-size: 1.25rem;
+	text-align: left;
+	text-indent: 2em;
+	color: #303131;
+}
+.content p i{
+	font-size: 1.875rem;
+	color: #7c251c;
+}
+.content p strong,.content p u{
+	color: #7c251c;
+}
+.content p u{
+	font-size: 1.5rem;
+}
+.content p b{
+	background-color: #f5ee30;
+}
+
+.footer{
+	width: 61.25rem;
+	margin: 0 auto;
+	height: 6.25rem;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	background-color: #525252;
+}
